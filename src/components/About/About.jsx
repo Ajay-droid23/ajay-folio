@@ -16,21 +16,19 @@ export const About = () => {
         <ul className={styles.aboutItems}>
           <li data-aos="fade-right" data-aos-duration="1000" className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+            <div className={styles.aboutItemText1}>
+              <h3>Frontend Dev</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+              I'm a frontend developer proficient in developing responsive and finely-tuned websites.
               </p>
             </div>
           </li>
           <li data-aos="fade-right" data-aos-duration="2000" className={styles.aboutItem}>
             <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3>Problem-Solving</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+              Crafting efficient algorithms to tackle complex data structures <br/> and algorithms challenges
               </p>
             </div>
           </li>
