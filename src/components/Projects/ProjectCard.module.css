@@ -1,0 +1,95 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color:var(--color-secondary);
+  border-bottom: solid 1px rgba(255, 255, 255, 0.343);
+  border-left: solid 1px rgba(255, 255, 255, 0.316);
+  padding: 18px 24px;
+  max-width: 345px;
+  line-height: 2rem;
+}
+
+.image {
+  margin-bottom: 26px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.description {
+  margin-top: 6px;
+  font-size: 21px;
+  color: gray;
+  font-weight: 300;
+ 
+}
+
+.skills {
+  width: 100%;
+  margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+}
+
+.skill {
+  font-size: 19px;
+  font-weight: 400;
+  border-radius: 100px;
+  background: var(--color-dark);
+  border: 1px solid rgba(255, 255, 255, 0.346);
+  padding: 1px 20px;
+}
+
+.links {
+  width: 100%;
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 100px;
+  background: var(--color-primary);
+  padding: 8px 19px;
+}
+
+
+.topBlur {
+  position: absolute;
+  width: 25vw;
+  height: 25vw;
+  min-width: 300px;
+  min-width: 300px;
+  top: -128px;
+  left: -10vw;
+  border-radius: 764px;
+  background: rgba(77, 1, 97, 0.7);
+  filter: blur(100px);
+  z-index: -2;
+}
+
+.bottomBlur {
+  position: absolute;
+  width: 30vw;
+  height: 20vw;
+  min-width: 350px;
+  min-width: 250px;
+  top: 310px;
+  right: -25vw;
+  border-radius: 764px;
+ background: rgba(77, 1, 97, 0.7);
+  filter: blur(100px);
+  z-index: -2;
+}

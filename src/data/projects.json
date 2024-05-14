@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Symposium website",
+    "imageSrc": "projects/project.png",
+    "description": "I made this website for my college's symposium event.",
+    "skills": ["React", "Tailwind"],
+    "demo": "https://xerone.vercel.app/",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Java project",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn java by building projects.",
+    "skills": ["Java","JDBC"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "React project",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]
