@@ -12,7 +12,7 @@ export const Hero = () => {
         
         Developer with a growing proficiency in data structures and algorithms, adept at crafting intuitive user interfaces and solving complex problems efficiently.
         </p>
-        <a href="../../../assets/hero/my-resume.pdf" download="my-resume.pdf" className={styles.contactBtn}>
+        <a href="../../../public/my-resume.pdf" download="my-resume.pdf" className={styles.contactBtn}>
           Download CV
         </a>
       </div>
